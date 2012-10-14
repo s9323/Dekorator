@@ -1,6 +1,6 @@
-package Dekorator;
+package Car;
 
-public class Samochod_osobowy {
+public abstract class Samochod_osobowy implements Samochod_osobowy_Interface {
 
 	protected String samochod ="Samochod podstawowy";
 	

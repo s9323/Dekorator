@@ -1,3 +1,8 @@
+package DekoratorMain;
+
+import Car.Citroen;
+import Car.Samochod_osobowy;
+import Car.Toyota;
 import Dekorator.*;
 
 

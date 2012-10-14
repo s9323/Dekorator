@@ -1,5 +1,7 @@
 package Dekorator;
 
+import Car.Samochod_osobowy;
+
 public class Alufelgi extends Dekorator_samochodu {
 Samochod_osobowy samochod;
 	
@@ -20,6 +22,13 @@ Samochod_osobowy samochod;
 		return samochod.cena()+ 8000;
 		
 		
+	}
+
+
+	@Override
+	public boolean check(Object obj) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	}
 	

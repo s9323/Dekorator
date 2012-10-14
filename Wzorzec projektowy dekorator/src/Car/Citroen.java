@@ -1,4 +1,5 @@
-package Dekorator;
+package Car;
+
 
 public class Citroen extends Samochod_osobowy{
 

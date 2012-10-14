@@ -1,5 +1,9 @@
 package Dekorator;
 
+import Car.Citroen;
+import Car.Samochod_osobowy;
+import Car.Toyota;
+
 public class Klimatyzacja extends Dekorator_samochodu{
      Samochod_osobowy samochod;
 	
@@ -23,6 +27,13 @@ public class Klimatyzacja extends Dekorator_samochodu{
 			return samochod.cena()+15000;
 		}
 		return 0.;
+	}
+
+
+	@Override
+	public boolean check(Object obj) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 }

@@ -1,5 +1,7 @@
 package Dekorator;
 
+import Car.Samochod_osobowy;
+
 public class Centralny_zamek extends Dekorator_samochodu {
 
 	Samochod_osobowy samochod;
@@ -18,6 +20,13 @@ public class Centralny_zamek extends Dekorator_samochodu {
 		
 			return samochod.cena()+5000;
 		
+	}
+
+
+	@Override
+	public boolean check(Object obj) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	}

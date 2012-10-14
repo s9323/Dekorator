@@ -1,4 +1,5 @@
-package Dekorator;
+package Car;
+
 
 public class Toyota extends Samochod_osobowy{
 
