@@ -1,6 +1,6 @@
 package Car;
 
-public interface Samochod_osobowy_Interface {
+public interface PassangerCarInterface {
 
 	
 	public String about();

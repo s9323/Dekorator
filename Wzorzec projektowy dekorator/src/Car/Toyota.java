@@ -1,11 +1,11 @@
 package Car;
 
 
-public class Toyota extends Samochod_osobowy{
+public class Toyota extends PassangerCar{
 
 	
 	public Toyota (){
-		samochod = "Toyota";
+		car = "Toyota";
 	}
 	
 	public double cena(){
